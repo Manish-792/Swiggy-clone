@@ -37,7 +37,7 @@ jobs:
           node-version: 18 # Or your preferred Node.js version
           cache: 'npm'
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build # This runs the build script from your package.json
       - name: Setup Pages
