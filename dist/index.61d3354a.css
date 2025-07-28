@@ -282,6 +282,10 @@
 @layer components;
 
 @layer utilities {
+  .collapse {
+    visibility: collapse;
+  }
+
   .visible {
     visibility: visible;
   }
@@ -542,6 +546,10 @@
     height: calc(var(--spacing) * 110);
   }
 
+  .h-455 {
+    height: calc(var(--spacing) * 455);
+  }
+
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
@@ -616,6 +624,10 @@
 
   .flex-none {
     flex: none;
+  }
+
+  .border-collapse {
+    border-collapse: collapse;
   }
 
   .transform {
