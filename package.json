@@ -1,32 +1,19 @@
 {
-  "name": "swiggy-clone",
+  "name": "day20",
   "version": "1.0.0",
+  "description": "",
   "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url /Swiggy-clone/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
-    "deploy": "gh-pages -d dist"
-  },
-
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "parcel": "^2.13.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-redux": "^9.2.0",
-    "react-router": "^7.3.0"
-  },
-
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.14",
-    "gh-pages": "^6.3.0",
-    "process": "^0.11.10"
+    "react-redux": "^9.2.0"
   }
 }
