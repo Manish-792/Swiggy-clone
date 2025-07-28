@@ -26,7 +26,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # <-- We changed this from 18 to 20
+          node-version: 16 # <-- The final change is here
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
