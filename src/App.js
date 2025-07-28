@@ -20,7 +20,7 @@ function App(){
     return(
        <>
        <Provider store={store}>
-       <BrowserRouter>
+       <BrowserRouter basename="/Swiggy-clone">
        <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route element={<SecondaryHome></SecondaryHome>}>
