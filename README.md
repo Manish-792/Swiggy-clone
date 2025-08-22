@@ -13,6 +13,7 @@
 > You may need to repeat this step every few hours.
 
 🚀 **Swiggy Clone - Live Food Discovery App 
+
 A feature-rich web application built with React, Redux Toolkit, and live Swiggy API data, delivering a seamless food browsing and cart experience.**
 ==========================
 
@@ -127,7 +128,7 @@ npm test
 
 <img width="1896" height="904" alt="image" src="https://github.com/user-attachments/assets/21bf03ee-62b3-4f12-9ef0-3c5e3de804cf" />
 
-###Checkout
+### Checkout
 
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/98fd23a4-93cb-4d2d-90a8-952c2f9adf1e" />
 
