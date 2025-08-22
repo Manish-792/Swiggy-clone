@@ -12,7 +12,7 @@
 >
 > You may need to repeat this step every few hours.
 
-🚀 **Swiggy Clone - Live Food Discovery App 
+# 🚀 Swiggy Clone - Live Food Discovery App
 
 A feature-rich web application built with React, Redux Toolkit, and live Swiggy API data, delivering a seamless food browsing and cart experience.**
 ==========================
